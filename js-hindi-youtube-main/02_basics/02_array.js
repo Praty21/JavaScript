@@ -20,6 +20,13 @@ console.log(real_another_array);
 
 
 
+| Method               | Purpose                            | Example Output    |
+| -------------------- | ---------------------------------- | ----------------- |
+| `isArray(val)`       | Check if val is an array           | `true / false`    |
+| `from(iterable)`     | Convert string/array-like to array | `['H','i',... ]`  |
+| `of(val1, val2,...)` | Make array from arguments          | `[100, 200, 300]` |
+
+
 console.log(Array.isArray("Hitesh"))
 console.log(Array.from("Hitesh"))
 console.log(Array.from({name: "hitesh"})) // interesting
